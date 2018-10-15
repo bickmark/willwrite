@@ -1,0 +1,29 @@
+html {
+  background-color: gray; }
+
+main {
+  background-color: white;
+  margin: 50px auto 50px auto;
+  max-width: 900px;
+  padding: 50px; }
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 1.25rem;
+  text-transform: uppercase; }
+
+h3 {
+  display: inline;
+  font-size: 1rem; }
+
+p {
+  display: inline; }
+
+li {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */
