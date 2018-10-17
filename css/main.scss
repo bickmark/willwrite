@@ -1,5 +1,7 @@
 html {
   background-color: gray;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 main {
@@ -11,12 +13,8 @@ main {
 
 h1 {
   font-size: 1.5rem;
+  margin-bottom: 25px;
   text-align: center;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 1.25rem;
   text-transform: uppercase;
 }
 
@@ -27,8 +25,70 @@ h3 {
 
 p {
   display: inline;
+  margin-bottom: 10px;
 }
 
 li {
   margin-bottom: 10px;
 }
+
+.Field {
+  background-color: yellow;
+}
+
+.first {
+  margin-top: 10px;
+}
+
+.Definition {
+  background-color: #80008040;
+}
+
+.Section {
+  margin-bottom: 25px;
+}
+
+.Section_title {
+  border-bottom: solid gray 1px;
+  color: tomato;
+  font-size: 1rem;
+  margin-left: -25px;
+  text-transform: uppercase;
+}
+
+.LevelOne_title {
+  margin-right: 8px;
+  text-transform: uppercase;
+
+  &:after {
+    content: ".";
+  }
+}
+
+.LevelTwoContainer {
+  list-style-type: lower-alpha;
+  margin-top: 10px;
+}
+
+.LevelTwo {
+}
+
+.LevelThreeContainer {
+  list-style-type: lower-roman;
+}
+
+.LevelThree {
+}
+
+.Legislation {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Explanation {
+  background-color: #f2f2f2;
+  color: navy;
+  margin: 20px;
+  padding: 20px;
+}
+
