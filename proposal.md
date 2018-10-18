@@ -16,3 +16,17 @@ A website-based service that creates wills based on answers provided by a user a
 1. When the chatbot has asked all the questions, the chatbot window closes and the service displays an html rendition of the will.
 1. The service then asks the user to enter an email address, and the user is emailed a PDF version of the will.
 1. The service thanks the user for creating a will.
+
+
+## Libraries needed
+- PDF creator
+- email service
+
+## Issues
+- legal liability
+- data privacy
+
+## Revenue
+- charitable organizations, to receive priority
+- trustee company, to be default
+- funeral service providers, to receive priority 
