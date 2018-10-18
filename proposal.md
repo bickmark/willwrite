@@ -1,10 +1,10 @@
-#WillWrite
+# WillWrite
 
-##Purpose
+## Purpose
 
 A website-based service that creates wills based on answers provided by a user and delivers a PDF copy of that will to the user via email.
 
-##Process
+## Process
 
 1. The user reads text on the website explaining the benefits of a will and how the service works.
 1. The user clicks a button to begin creating a will.
