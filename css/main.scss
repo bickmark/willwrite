@@ -11,22 +11,6 @@ main {
   padding: 50px;
 }
 
-h1 {
-  font-size: 1.5rem;
-  margin-bottom: 25px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-h3 {
-  display: inline;
-  font-size: 1rem;
-}
-
-p {
-  display: inline;
-  margin-bottom: 10px;
-}
 
 li {
   margin-bottom: 10px;
@@ -61,12 +45,19 @@ li {
 }
 
 .LevelOne_title {
-  margin-right: 8px;
+  display: inline;
+  font-size: 1rem;
+  margin-right: 5px;
   text-transform: uppercase;
 
   &:after {
     content: ".";
   }
+}
+
+.LevelOne_body {
+  display: inline;
+  margin-bottom: 10px;
 }
 
 .LevelTwoContainer {
