@@ -45,6 +45,9 @@ li {
   margin-left: -25px;
   text-transform: uppercase; }
 
+.Subsection_title {
+  color: cornflowerblue; }
+
 .LevelOne_title {
   margin-right: 8px;
   text-transform: uppercase; }

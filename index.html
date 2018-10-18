@@ -90,7 +90,7 @@
         <li class="LevelOne">
           <h3 class="LevelOne_title">Direction to Trustee</h3>
           <p class="LevelOne_body">I direct my Trustee to hold that property on the following trusts:</p>
-          <h4 class="LevelTwo_title">Debts to Be Paid from My Estate</h4>
+          <h4 class="Subsection_title">Debts to Be Paid from My Estate</h4>
           <ol class="LevelTwoContainer">
             <li class="LevelTwo">to pay out of my estate:</li>
             <ol class="LevelThreeContainer">
@@ -107,29 +107,33 @@
               </li>
             </ol>
             <h4 class="Subsection_title">Gift of Articles</h4>
-            <li>if Mary is not alive on the date that is 30 days after the date of my death:
-              <ol>
-                <li>to distribute those items of the Articles that remain (the “Articles”) as equally as is reasonably practicable among those of my son Henry James Smith (“Hank”), my daughter Susan Mary Smith (“Susan”), and my daughter Elizabeth Anne Smith (“Liz”) who are alive on the date that is 5 days after the date of my death;</li>
-                <li>it is my hope that my Trustee will, together with my children, devise a format of division of the Remaining Articles that results in those of Hank, Susan, and Liz who are alive on the date that is 5 days after the date of my death, receiving items (or items and cash, if an equalizing payment is required) of approximately the same total market value;</li>
-                <li>to pay all of the packing, freight, and insurance costs my Trustee decides is appropriate for delivering any items of the Articles as required by this Will;</li>
+            <li class="LevelTwo">if Mary is not alive on the date that is 30 days after the date of my death:
+              <ol class="LevelThreeContainer">
+                <li class="LevelThree">to distribute those items of the Articles that remain (the “Articles”) as equally as is reasonably practicable among those of my son Henry James Smith (“Hank”), my daughter Susan Mary Smith (“Susan”), and my daughter Elizabeth Anne Smith (“Liz”) who are alive on the date that is 5 days after the date of my death;</li>
+                <li class="LevelThree">it is my hope that my Trustee will, together with my children, devise a format of division of the Remaining Articles that results in those of Hank, Susan, and Liz who are alive on the date that is 5 days after the date of my death, receiving items (or items and cash, if an equalizing payment is required) of approximately the same total market value;</li>
+                <li class="LevelThree">to pay all of the packing, freight, and insurance costs my Trustee decides is appropriate for delivering any items of the Articles as required by this Will;</li>
               </ol>
             </li>
-            <h4 class="Subsection_title">Gift to Charity</h4>
-            <li><p>to pay $2,000 to ABC Foundation (“ABC Foundation”) of 567 Elsewhere Street, Othertown, British Columbia to be applied by the ABC Foundation for its education programs;</p></li>
+
+            <li class="LevelOne">
+              <h3 class="LevelOne_title">Charitable Gifts</h3>
+              <p class="LevelOne_body">The trustee shall pay ${{ charity-1-sum }} to {{ charity-1 }} and direct that the gift is to be applied to its {{ charity-1-purpose }}.</p>
+            </li>
+
             <h4 class="Subsection_title">Residue of Estate</h4>
-            <li>to give the residue of my estate to Mary, if she is alive on the date that is 30 days after the date of my death;</li>
-            <li>if Mary is not alive on the date that is 30 days after the date of my death, to divide the residue of my estate into as many equal shares as there are of my children who are alive on the date that is 30 days after the date of my death, except if any child of mine has died before that date and one or more of his or her children are alive on that date, that deceased child will be considered alive for the purposes of the division, and:</li>
-            <ol>
-              <li>hold one of those shares for each child of mine who is alive on that date, and:</li>
-              <ol>
-                <li>pay or use so much of the income and capital of that child’s share as my Trustee decides is necessary or advisable for the care, maintenance, education, and benefit of that child until he or she dies or reaches 25;</li>
-                <li>add any income not paid or used in any year to the capital of that child’s share;</li>
-                <li>when that child reaches 21, give that child one-half of what remains of his or her share;</li>
-                <li>when that child reaches 25, give that child what remains of that child’s share;</li>
-                <li>if that child dies before reaching 25 and leaves one or more children alive on the date that is one day after the date of that child’s death, divide what remains of that child’s share equally among those of that child’s children who are alive on that date;</li>
-                <li>if that child dies before reaching 25 and leaves no child alive on the date that is one day after the date of that child’s death, divide what remains of that child’s share equally among the other shares created under the provisions of paragraph 7(e) of this Will;</li>
+            <li class="LevelTwo">to give the residue of my estate to Mary, if she is alive on the date that is 30 days after the date of my death;</li>
+            <li class="LevelTwo">if Mary is not alive on the date that is 30 days after the date of my death, to divide the residue of my estate into as many equal shares as there are of my children who are alive on the date that is 30 days after the date of my death, except if any child of mine has died before that date and one or more of his or her children are alive on that date, that deceased child will be considered alive for the purposes of the division, and:</li>
+            <ol class="LevelThreeContainer">
+              <li class="LevelThree">hold one of those shares for each child of mine who is alive on that date, and:</li>
+              <ol class="LevelFourContainer">
+                <li class="LevelFour">pay or use so much of the income and capital of that child’s share as my Trustee decides is necessary or advisable for the care, maintenance, education, and benefit of that child until he or she dies or reaches 25;</li>
+                <li class="LevelFour">add any income not paid or used in any year to the capital of that child’s share;</li>
+                <li class="LevelFour">when that child reaches 21, give that child one-half of what remains of his or her share;</li>
+                <li class="LevelFour">when that child reaches 25, give that child what remains of that child’s share;</li>
+                <li class="LevelFour">if that child dies before reaching 25 and leaves one or more children alive on the date that is one day after the date of that child’s death, divide what remains of that child’s share equally among those of that child’s children who are alive on that date;</li>
+                <li class="LevelFour">if that child dies before reaching 25 and leaves no child alive on the date that is one day after the date of that child’s death, divide what remains of that child’s share equally among the other shares created under the provisions of paragraph 7(e) of this Will;</li>
               </ol>
-              <li>hold one of those shares for each child of mine who died before the date that is 30 days after the date of my death and left one or more of his or her children alive on that date, and divide each deceased child’s share equally among those children of that deceased child;</li>
+              <li class="LevelThree">hold one of those shares for each child of mine who died before the date that is 30 days after the date of my death and left one or more of his or her children alive on that date, and divide each deceased child’s share equally among those children of that deceased child;</li>
             </ol>
             <li>if Mary is not alive on the date that is 30 days after the date of my death and the trusts of paragraph 7(e) of this Will, or any of those trusts, should at any date (the “Failure Date”) fail to vest, I direct my Trustee to divide that part of my estate for which the trusts have failed, into two equal shares and:</li>
             <ol>
@@ -306,7 +310,7 @@
         </li>
 
         <li class="LevelOne">
-          <h3 class="LevelOne_title">Interim Compensation.</h3>
+          <h3 class="LevelOne_title">Interim Compensation</h3>
           <p class="LevelOne_body"> If <span class="Field">{{ Trust Company }}</span> is my Trustee, I authorize it to appropriate and pay to itself from the income and capital of my estate such amounts on account of its compensation as my Trustee as it, in its discretion, determines to be reasonable and appropriate from time to time notwithstanding that it will have the use of the funds prior to any order of any court of competent jurisdiction or prior to the approval of the estate accounting by the beneficiaries entitled to so approve. That compensation will not be considered as a reserve with respect to compensation to be claimed, nor will any interest accrue to my estate on any excess compensation appropriated by my Trustee.</p>
         </li>
 
@@ -316,7 +320,7 @@
       <section class="Section">
         <h2 class="Section_title">Funeral Wishes</h2>
         <li class="LevelOne">
-          <h3 class="LevelOne_title">My remains.</h3>
+          <h3 class="LevelOne_title">My Remains</h3>
           <p class="LevelOne_body">The Trustee shall cause my remains to be <span class="Field">{{ remains }}</span>.</p>
         </li>
       </section>
@@ -325,7 +329,7 @@
       <section class="Section">
         <h2 class="Section_title">Miscellaneous</h2>
         <li class="LevelOne">
-          <h3 class="LevelOne_title">Governing Law.</h3>
+          <h3 class="LevelOne_title">Governing Law</h3>
           <p class="LevelOne_body">My estate and the terms of this Will and the trusts established in this Will will be governed by, construed, interpreted, administered and take effect in accordance with British Columbia law and applicable Canadian law as its proper law and the British Columbia courts will have non-exclusive jurisdiction.</p>
         </li>
       </section>
