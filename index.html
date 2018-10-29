@@ -25,12 +25,16 @@
 
     <h1 class="Title">Will</h1>
     <p class="SubTitle"><span class="Field">{{ first-name }}{{ middle-name }}{{ last-name }}</span></p>
-    <p class="ReferenceDate">Dated for reference <time>{{ date }}</time>.</p>
+    <p class="ReferenceDate">Dated for reference
+      <time>{{ date }}</time>
+      .
+    </p>
 
     <ol>
 
       <!-- Introduction -->
       <section>
+        <h2 class="Section_title">Introduction</h2>
         <li class="LevelOne">
           <h3 class="LevelOne_title">Introduction</h3>
           <p class="LevelOne_body">This is the last will of <span class="Field">{{ first-name }}</span> <span class="Field">{{ middle-name }}</span> <span class="Field">{{ last-name }}</span> (the "<strong>Testator</strong>"), of <span class="Field">{{ address }}</span>. I revoke all prior wills and codicils.</p>
@@ -45,7 +49,7 @@
                 <li class="LevelThree">“<strong>decide</strong>” or “<strong>decides</strong>” means, when referring to a decision of any person, a decision made in that person’s sole and uncontrolled discretion to the extent permitted by law;</li>
                 <li class="LevelThree">“<strong>Trustee</strong>” means both the executor of this Will and the trustee of my estate and any reference to my Trustee includes all genders and the singular or the plural as the context requires;</li>
                 <li class="LevelThree">"<strong>Minor</strong>" means a person under 19 years of age;</li>
-                <li class="LevelThree"><strong>Children</strong> means: </li>
+                <li class="LevelThree"><strong>Children</strong> means:</li>
                 <li class="LevelThree"><strong>Qualified</strong>means .</li>
               </ol>
             </li>
@@ -55,23 +59,9 @@
         </li>
       </section>
 
-      <!-- Executor; Trustee -->
-      <section class="Section">
-        <h2 class="Section_title">Executor; Trustee</h2>
-        <li class="LevelOne">
-          <h3 class="LevelOne_title">Appointment</h3>
-          <p class="LevelOne_body">I hereby appoint the first of the following persons who is <span class="Definition">Qualified</span>, as my trustee (the "<strong>Trustee</strong>").</p>
-          <ol class="LevelTwoContainer">
-            <li class="LevelTwo"><span class="Field">{{ trustee-one }};</span></li>
-            <li class="LevelTwo"><span class="Field">{{ trustee-two }}; or</span></li>
-            <li class="LevelTwo"><span class="Field">{{ trust-company }}.</span></li>
-          </ol>
-        </li>
-      </section>
-
       <!-- Guardians -->
       <section>
-        <h2 class="Section_title">Guardians</h2>
+        <h2 class="Section_title">Appointment of guardian</h2>
         <li class="LevelOne">
           <h3 class="LevelOne_title">Appointment</h3>
           <p class="LevelOne_body">I hereby appoint <span class="Field">{{ guardian-one }}</span> and <span class="Field">{{ guardian-two }}</span> (and either of them alone, if the other is unwilling or unable) to be the guardians of my minor children. It is my hope that, in accordance with the provisions of the <a class="Legislation" href=""><i>Family Law Act</i> (British Columbia)</a>, these guardians will appoint a guardian in each of their wills, or otherwise, to be the guardian of my minor children.</p>
@@ -79,7 +69,22 @@
         </li>
       </section>
 
-      <!-- Direction to Trustee -->
+      <!-- Appointment of executor -->
+      <section class="Section">
+        <h2 class="Section_title">Appointment of executor</h2>
+        <li class="LevelOne">
+          <h3 class="LevelOne_title">Appointment</h3>
+          <p class="LevelOne_body">I hereby appoint the first of the following persons who is <span class="Definition">Qualified</span>, as my executor (the "<strong>executor</strong>").</p>
+          <ol class="LevelTwoContainer">
+            <li class="LevelTwo"><span class="Field">{{ trustee-one }};</span></li>
+            <li class="LevelTwo"><span class="Field">{{ trustee-two }}; or</span></li>
+            <li class="LevelTwo"><span class="Field">{{ trust-company }}.</span></li>
+          </ol>
+        </li>
+        <aside class="Explanation">The executor is a person (or corporation) appointed by you to deal with your property after your death. Your property is everything you own, whether tangible (a car) or intangible (a patent).</aside>
+      </section>
+
+      <!-- Direction to executor -->
       <section class="Section">
         <h1 class="Section_title">Direction to Trustee</h1>
 
@@ -117,11 +122,6 @@
         </li>
 
         <li class="LevelOne">
-          <h2 class="LevelOne_title">Charitable Gifts</h2>
-          <p class="LevelOne_body">The trustee shall pay ${{ charity-1-sum }} to {{ charity-1 }} and direct that the gift is to be applied to its {{ charity-1-purpose }}.</p>
-        </li>
-
-        <li class="LevelOne">
           <h2 class="LevelOne_title">Residue</h2>
           <ol class="LevelTwoContainer">
             <li class="LevelTwo">The Trustee shall transfer the residue of my estate:
@@ -149,14 +149,14 @@
               </ol>
             </li>
           </ol>
-          <aside class="Explanation">What is the residue? This is a legal blah blah blah</aside>
+          <aside class="Explanation">What is the residue? All property that is not . For instance, it is likely that you would make a specific provision as to what is to happen to your large, high-value items, but you might not record who should receive smaller items, like cutlery, in your will. If your will does not state what is to happen with these items, then they form the "residue" of your estate.</aside>
         </li>
 
       </section>
 
       <!-- Powers of Trustee -->
       <section class="Section">
-        <h2 class="Section_title">Powers of Trustee</h2>
+        <h2 class="Section_title">Powers of Executor</h2>
 
         <li class="LevelOne">
           <h3 class="LevelOne_title">Trust Terms for Minors</h3>
@@ -296,10 +296,6 @@
         </li>
 
         <li class="LevelOne">
-          <h3 class="LevelOne_title">Digital Information; Online Accounts</h3>
-        </li>
-
-        <li class="LevelOne">
           <h3 class="LevelOne_title">Professional Assistance and Agents</h3>
           <p class="LevelOne_body">My Trustee need not act personally but may retain and rely on the advice of, and delegate my Trustee’s powers to corporate trustees, investment counsel, lawyers, accountants, and other professionals or advisors, as my Trustee decides will assist my Trustee in the discharge of my Trustee’s duties, and my Trustee:</p>
           <ol class="LevelTwoContainer">
@@ -324,15 +320,6 @@
           <p class="LevelOne_body"> If <span class="Field">{{ Trust Company }}</span> is my Trustee, I authorize it to appropriate and pay to itself from the income and capital of my estate such amounts on account of its compensation as my Trustee as it, in its discretion, determines to be reasonable and appropriate from time to time notwithstanding that it will have the use of the funds prior to any order of any court of competent jurisdiction or prior to the approval of the estate accounting by the beneficiaries entitled to so approve. That compensation will not be considered as a reserve with respect to compensation to be claimed, nor will any interest accrue to my estate on any excess compensation appropriated by my Trustee.</p>
         </li>
 
-      </section>
-
-      <!-- Funeral Wishes -->
-      <section class="Section">
-        <h2 class="Section_title">Funeral Wishes</h2>
-        <li class="LevelOne">
-          <h3 class="LevelOne_title">My Remains</h3>
-          <p class="LevelOne_body">The Trustee shall cause my remains to be <span class="Field">{{ remains }}</span>.</p>
-        </li>
       </section>
 
       <!-- Miscellaneous -->

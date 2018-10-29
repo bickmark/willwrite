@@ -30,3 +30,28 @@ A website-based service that creates wills based on answers provided by a user a
 - charitable organizations, to receive priority
 - trustee company, to be default
 - funeral service providers, to receive priority 
+
+## Document outline
+
+### Introduction
+- identification of testator
+- definitions
+
+### Appointment of guardian
+- 
+
+### Appointment of executor or trustee
+
+
+
+### Other
+- 
+
+## Version two
+- charitable gifts
+- pets
+- funeral wishes
+- digital assets
+
+## Questions
+- executor vs trustee
