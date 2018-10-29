@@ -12,6 +12,18 @@ main {
 li {
   margin-bottom: 10px; }
 
+.Title {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.SubTitle {
+  font-size: 1.25rem;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase; }
+
 .Field {
   background-color: yellow; }
 
