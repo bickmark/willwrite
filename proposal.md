@@ -52,6 +52,7 @@ A website-based service that creates wills based on answers provided by a user a
 - pets
 - funeral wishes
 - digital assets
+- resignation of executor
 
 ## Questions
 - executor vs trustee

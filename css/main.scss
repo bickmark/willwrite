@@ -96,8 +96,15 @@ li {
 
 .Explanation {
   background-color: #f2f2f2;
+  border-left: solid blue;
   color: navy;
+  font-size: 1.05rem;
+  font-style: normal;
+  font-weight: 500;
   margin: 20px;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
+.Explanation_title {
+  font-weight: 900;
+}
